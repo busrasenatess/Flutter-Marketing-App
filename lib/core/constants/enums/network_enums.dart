@@ -1,0 +1,4 @@
+enum NetworkEnums {
+  //AUTH
+  login,
+}
