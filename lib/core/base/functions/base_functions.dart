@@ -1,8 +1,9 @@
-import 'package:flutter/cupertino.dart';
 
-import '../../init/locale_storage/locale_storage_manager.dart';
 
 //TODO: SINGLETON DESIGN PATTERN
+
+import 'package:flutter/material.dart';
+import 'package:marketingapp/core/init/locale_storage/locale_storage_manager.dart';
 
 class BaseFunctions {
   static BaseFunctions? _instance;
