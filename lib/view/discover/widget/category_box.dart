@@ -2,7 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:kartal/kartal.dart';
 import 'package:lottie/lottie.dart';
-import 'package:marketing_app/core/init/navigation/routes.dart';
+//import 'package:marketing_app/core/init/navigation/routes.dart';
 
 import '../../../core/components/text/custom_text.dart';
 import '../../../core/constants/app/color_constants.dart';
@@ -14,7 +14,7 @@ class CategoryBoxWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => context.router.push(SearchProductRoute(word: name.toLowerCase(), isCategoryName: true)),
+      //onTap: () => context.router.push(SearchProductRoute(word: name.toLowerCase(), isCategoryName: true)),
       child: Center(
         child: Container(
             width: context.sized.dynamicWidth(0.9),

@@ -2,7 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:kartal/kartal.dart';
-import 'package:marketing_app/core/init/navigation/routes.dart';
+//import 'package:marketing_app/core/init/navigation/routes.dart';
 import 'package:sizer/sizer.dart';
 
 import '../../base/bloc/product_bloc.dart';
@@ -41,7 +41,7 @@ class _ProductCardWidgetState extends State<ProductCardWidget> {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () => context.router.push(ProductDetailRoute(productModel: widget.productModel!)),
+      //onTap: () => context.router.push(ProductDetailRoute(productModel: widget.productModel!)),
       child: Container(
         decoration: BoxDecoration(
           color: Colors.white,

@@ -1,0 +1,3 @@
+class PaymentRoute {
+  const PaymentRoute();
+}
