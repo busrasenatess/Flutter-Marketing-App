@@ -8,6 +8,7 @@ import 'widget/category_box.dart';
 
 // ignore: must_be_immutable
 @RoutePage()
+// ignore: must_be_immutable
 class DiscoverView extends StatelessWidget {
   DiscoverView({super.key});
   List<String> categories = ["Smartphones", "Laptops", "Automotive", "Skincare", "Furniture", "Sunglasses"];

@@ -4,6 +4,7 @@ import 'package:vexana/vexana.dart';
 part 'product_model.g.dart';
 
 @JsonSerializable()
+// ignore: must_be_immutable
 class ProductModel extends INetworkModel<ProductModel> {
   int? id;
   String? title;

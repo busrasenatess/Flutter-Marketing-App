@@ -6,6 +6,7 @@ import 'product_model.dart';
 part 'result_model.g.dart';
 
 @JsonSerializable()
+// ignore: must_be_immutable
 class ResultModel extends INetworkModel<ResultModel> {
   List<ProductModel>? products;
   int? total;

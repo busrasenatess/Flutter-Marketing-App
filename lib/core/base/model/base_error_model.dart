@@ -3,6 +3,7 @@ import 'package:vexana/vexana.dart';
 part 'base_error_model.g.dart';
 
 @JsonSerializable()
+// ignore: must_be_immutable
 class BaseErrorModel extends INetworkModel<BaseErrorModel> {
     String? message;
 BaseErrorModel({this.message});
